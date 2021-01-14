@@ -175,12 +175,44 @@ class Search extends Component {
                 </tr>
               </table>
             </div>
-            {/*  <div className="mobile">
-              <div className="mobile"></div>
-    </div>*/}
+              <div className="mobile">
+                 <table className="Search__table">
+                <tr>
+                  <td className="Search__title">Name</td>
+                  <td className="Search__data">
+                    {this.state.currentDoctor.name}
+                  </td>
+                </tr>
+                <tr>
+                  <td className="Search__title">MBS Number</td>
+                  <td className="Search__data">
+                    {this.state.currentDoctor.MBSNumber}
+                  </td>
+                </tr>
+                <tr>
+                  <td className="Search__title">Branch</td>
+                  <td className="Search__data">
+                    {this.state.currentDoctor.branch}
+                  </td>
+                </tr>
+                <tr>
+                  <td className="Search__title">Place</td>
+                  <td className="Search__data">
+                    {this.state.currentDoctor.state}
+                  </td>
+                </tr>
+                <tr>
+                  <td className="Search__title">Status</td>
+                  <td className="Search__data">
+                    {this.state.currentDoctor.status}
+                  </td>
+                </tr>
+              </table>
+            </div>
+            </div>
           </div>
         </div>
-      </div>
+     
     );
   }
 }
