@@ -8,7 +8,7 @@ function lifemembership()
     <>
     <div className="desktop">
     <div className="row" style={{marginRight:"92px",marginLeft:"98px"}}>
-    <hr className="line"/>
+    {/* <hr className="line"/> */}
     <div className="col-sm-6">
         <div className="heading">NIMA <br/>LIFE<br/> MEMBERSHIP</div>
         <a className="link" href="#" >DOWNLOAD BROCHURE 

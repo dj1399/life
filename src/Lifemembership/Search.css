@@ -35,10 +35,11 @@
 
   .Search__select {
     width: 400px;
-    height: 53px;
+    height: 53px !important;
     background: #ffffff;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
+    margin-bottom: 20px;
   }
 
   .Search__btn {
@@ -76,6 +77,7 @@
     text-align: left;
     /* padding-left: 0 !important; */
     border-radius: 10px;
+    /* height: 900px; */
   }
 
   .Search__table td {
@@ -136,10 +138,11 @@
 
   .Search__select {
     width: 300px;
-    height: 53px;
+    height: 53px !important;
     background: #ffffff;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
+    margin-bottom: 20px;
   }
 
   .Search__btn {
@@ -238,10 +241,11 @@
 
   .Search__select {
     width: 220px;
-    height: 53px;
-    background: #ffffff;
+    height: 53px !important;
+    background: #999393;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
+    margin-bottom: 20px;
   }
 
   .Search__btn {
@@ -347,11 +351,12 @@
   }
 
   .Search__select {
-    height: 53px;
+    height: 53px !important;
     background: #ffffff;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
     margin-left: 0px;
+    margin-bottom: 20px;
   }
   select.form-control:not([size]):not([multiple]) {
     height: calc(3.15rem + 2px);
