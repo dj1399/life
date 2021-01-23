@@ -47,19 +47,25 @@
   }
   .heading {
     font-size: 40px !important;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 88px;
+    padding-bottom: 10px;
   }
   .mobile {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .text {
-    padding-bottom: 20px;
+    padding-bottom: 23px;
     text-align: left !important;
+    font-size: 12px;
+    margin-bottom: 0px !important;
+  }
+  .picture {
+    padding-bottom: 30px;
   }
   a.link {
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    font-size: 13px;
   }
 }
 @media (min-width: 600px) {
@@ -69,5 +75,8 @@
   .picture {
     width: 792px;
     height: 611px;
+  }
+  .text {
+    font-size: 35px;
   }
 }
