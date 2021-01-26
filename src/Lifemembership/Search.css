@@ -224,7 +224,7 @@
   }
 
   .Search__row {
-    margin-left: 1rem !important;
+    margin-left: 20px !important;
   }
 
   .Search__para {
@@ -242,7 +242,7 @@
   .Search__select {
     width: 220px;
     height: 53px !important;
-    background: #999393;
+    /* background: #999393; */
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
     margin-bottom: 20px;
@@ -334,7 +334,7 @@
   }
 
   .Search__row {
-    margin-left: 30px !important;
+    margin-left: 5px !important;
   }
 
   .Search__para {
