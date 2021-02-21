@@ -1,10 +1,16 @@
 .Search__MainDiv {
   padding-top: 114px;
-  padding-bottom: 95px;
+  padding-bottom: 130px;
   font-family: "Poppins", sans-serif;
-  background: url("../Imgs/Wave.svg"), #f6f6f6;
+  background: url("../Imgs/Wave-Image.png") #f6f6f6;
   background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 100%;
 }
+
+/* .Search_Wave {
+  background-image: url("../Imgs/Wave-Image.png");
+} */
 /*desktops*/
 @media only screen and (min-width: 1200px) {
   .Search__txthead {
@@ -39,6 +45,7 @@
     background: #ffffff;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
+    border: 0;
     margin-bottom: 20px;
   }
 
@@ -61,6 +68,8 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     text-indent: 1px;
+    border: 0;
+
     text-overflow: "";
   }
   .Search__select::-ms-expand {
@@ -138,6 +147,8 @@
 
   .Search__select {
     width: 300px;
+    border: 0;
+
     height: 53px !important;
     background: #ffffff;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
@@ -161,6 +172,8 @@
   }
 
   .Search__select {
+    border: 0;
+
     -webkit-appearance: none;
     -moz-appearance: none;
     text-indent: 1px;
@@ -213,6 +226,15 @@
 
 /*For small and medium devices*/
 @media (min-width: 576px) and (max-width: 800px) {
+  .Search__MainDiv {
+    padding-top: 114px;
+    padding-bottom: 130px;
+    font-family: "Poppins", sans-serif;
+    background: url("../Imgs/Wave-Image.png") #f6f6f6;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
   .Search__txthead {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -245,6 +267,8 @@
     /* background: #999393; */
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
+    border: 0;
+
     margin-bottom: 20px;
   }
 
@@ -266,6 +290,8 @@
   .Search__select {
     -webkit-appearance: none;
     -moz-appearance: none;
+    border: 0;
+
     text-indent: 1px;
     text-overflow: "";
   }
@@ -316,13 +342,23 @@
 
 /*extra small devices*/
 @media screen and (max-width: 576px) {
-  .Search__MainDiv {
+  /* .Search__MainDiv {
     padding-top: 25px;
     padding-bottom: 95px;
     font-family: "Poppins", sans-serif;
-    background: url("../Imgs/Wave.svg"), #f6f6f6;
+    background: url("../Imgs/WaveMobile.png"), #f6f6f6;
     background-repeat: no-repeat;
+  } */
+  .Search__MainDiv {
+    padding-top: 114px;
+    padding-bottom: 130px;
+    font-family: "Poppins", sans-serif;
+    background: url("../Imgs/Wave-Image.png") #f6f6f6;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /* background-size: 100% 100%; */
   }
+
   .Search__txthead {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -356,15 +392,16 @@
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);
     border-radius: 5px;
     margin-left: 0px;
+    border: 0;
     margin-bottom: 20px;
   }
   select.form-control:not([size]):not([multiple]) {
     height: calc(3.15rem + 2px);
-    width: 300px;
+    width: 330px;
   }
 
   .Search__btn {
-    width: 300px;
+    width: 330px;
     height: 53px;
     background: #2541b2;
     box-shadow: 0px 0px 9px rgba(219, 219, 219, 0.25);

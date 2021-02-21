@@ -1,5 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import "./Search.css";
+import wave from "../Imgs/Wave-Image.png";
 
 class Search extends Component {
   constructor(props) {
@@ -58,14 +59,13 @@ class Search extends Component {
       }
       return 0;
     });
-    if(temp[0] === undefined){
-      alert("Doctor not found, select some other value !")
-    }else{
+    if (temp[0] === undefined) {
+      alert("Doctor not found, select some other value !");
+    } else {
       this.setState({
         currentDoctor: temp[0],
       });
     }
-   
   };
   filterBranch = () => {
     let distinctBranch = [];
@@ -89,7 +89,7 @@ class Search extends Component {
   render() {
     console.log(this.state.currentDoctor);
     return (
-      <div className="form-container Search__MainDiv">
+      <div className="form-container Search__MainDiv Search_Wave">
         <div className="row Search__row  align-items-end">
           <div className="col-md-5 col-sm-12" id="form-card">
             <h5 className="Search__txthead">SEARCH NIMA MBS DETAILS</h5>
@@ -175,8 +175,8 @@ class Search extends Component {
                 </tr>
               </table>
             </div>
-              <div className="mobile">
-                 <table className="Search__table">
+            <div className="mobile">
+              <table className="Search__table">
                 <tr>
                   <td className="Search__title">Name</td>
                   <td className="Search__data">
@@ -209,10 +209,9 @@ class Search extends Component {
                 </tr>
               </table>
             </div>
-            </div>
           </div>
         </div>
-     
+      </div>
     );
   }
 }

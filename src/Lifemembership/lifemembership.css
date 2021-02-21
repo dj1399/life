@@ -20,6 +20,7 @@
   font-size: 18px;
   text-align: center;
   color: #000000;
+  font-weight: 600;
   margin-bottom: 100px;
 }
 .link {
@@ -57,9 +58,10 @@
   }
   .text {
     padding-bottom: 23px;
-    text-align: left !important;
+    text-align: center !important;
     font-size: 12px;
     margin-bottom: 0px !important;
+    font-weight: 600;
   }
   .picture {
     padding-bottom: 30px;
